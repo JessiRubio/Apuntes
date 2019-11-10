@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Apuntes</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Menu -->
+    <string name="menu_Recycler">Recycler</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+
+    <!-- Login -->
+    <string name="st_usuario">Usuario:</string>
+    <string name="st_contrasena">Contraseña:</string>
+    <string name="st_iniciar_sesion">Iniciar sesión</string>
+    <string name="st_crear_cuenta">Crear cuenta</string>
+    <string name="todo">TODO</string>
+
+    <!-- Calendario -->
+    <string name="st_evento">Evento:</string>
+    <string name="st_guardar">Guardar</string>
+</resources>
