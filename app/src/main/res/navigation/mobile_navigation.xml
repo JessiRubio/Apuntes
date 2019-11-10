@@ -12,16 +12,16 @@
         tools:layout="@layout/fragment_recycler" />
 
     <fragment
-        android:id="@+id/nav_gallery"
+        android:id="@+id/nav_calendario"
         android:name="com.example.apuntes.ui.calendario.CalendarioFragment"
-        android:label="@string/menu_gallery"
+        android:label="@string/menu_calendario"
         tools:layout="@layout/fragment_calendario" />
 
     <fragment
-        android:id="@+id/nav_slideshow"
-        android:name="com.example.apuntes.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
+        android:id="@+id/nav_camara"
+        android:name="com.example.apuntes.ui.camara.camaraFragment"
+        android:label="@string/menu_camara"
+        tools:layout="@layout/fragment_camara" />
 
     <fragment
         android:id="@+id/nav_tools"

@@ -9,8 +9,8 @@
 
     <!-- Menu -->
     <string name="menu_Recycler">Recycler</string>
-    <string name="menu_gallery">Gallery</string>
-    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_calendario">Calendario</string>
+    <string name="menu_camara">Camara</string>
     <string name="menu_tools">Tools</string>
     <string name="menu_share">Share</string>
     <string name="menu_send">Send</string>
