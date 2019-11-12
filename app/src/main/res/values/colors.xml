@@ -10,4 +10,11 @@
 
     <color name="colorBotones">#000000</color>
     <color name="colorTextoBotones">#ffffff</color>
+
+
+    <!-- Colores Menu Overflow -->
+    <color name="color_opcion_azul">#0000ff</color>
+    <color name="color_opcion_verde">#59DE17</color>
+    <color name="color_opcion_amarilla">#EDFC00</color>
+    <color name="color_opcion_blanco">#ffffff</color>
 </resources>

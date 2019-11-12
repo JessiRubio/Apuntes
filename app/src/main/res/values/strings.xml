@@ -13,7 +13,7 @@
     <string name="menu_camara">Camara</string>
     <string name="menu_tools">Tools</string>
     <string name="menu_share">Share</string>
-    <string name="menu_send">Send</string>
+    <string name="menu_cambio_atributos">Cambio Atributos</string>
 
     <!-- Login -->
     <string name="st_usuario">Usuario:</string>
@@ -25,5 +25,19 @@
     <!-- Calendario -->
     <string name="st_evento">Evento:</string>
     <string name="st_guardar">Guardar</string>
+
+    <!-- Cambio atributos -->
+    <string name="st_texto">TEXTO</string>
+    <string name="st_negrita">Negrita</string>
+    <string name="st_cursiva">Cursiva</string>
+    <string name="st_subrayado">Subrayado</string>
+
+    <!-- Menu Overflow-->
+    <string name="st_opcion_1">Azul</string>
+    <string name="st_opcion_2">Verde</string>
+    <string name="st_opcion_3">Amarillo</string>
+    <string name="st_opcion_4">Blanco</string>
+    <string name="communicate">Communicate</string>
+
 
 </resources>

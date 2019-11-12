@@ -24,6 +24,12 @@
         tools:layout="@layout/fragment_camara" />
 
     <fragment
+        android:id="@+id/nav_cambio_atributos"
+        android:name="com.example.apuntes.ui.cambioAtributos.CambioAtributosFragment"
+        android:label="@string/menu_cambio_atributos"
+        tools:layout="@layout/fragment_cambio_atributos" />
+
+    <fragment
         android:id="@+id/nav_tools"
         android:name="com.example.apuntes.ui.tools.ToolsFragment"
         android:label="@string/menu_tools"
@@ -35,9 +41,5 @@
         android:label="@string/menu_share"
         tools:layout="@layout/fragment_share" />
 
-    <fragment
-        android:id="@+id/nav_send"
-        android:name="com.example.apuntes.ui.send.SendFragment"
-        android:label="@string/menu_send"
-        tools:layout="@layout/fragment_send" />
+
 </navigation>

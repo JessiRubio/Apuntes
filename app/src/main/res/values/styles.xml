@@ -34,4 +34,13 @@
         <item name="android:layout_height">60dp</item> <!-- Anchura -->
     </style>
 
+    <style name="negrita">
+        <item name="android:textStyle">bold</item> <!--Pone la letra en negrita-->
+    </style>
+
+    <style name="cursiva">
+        <item name="android:textStyle">italic</item> <!--Pone la letra en negrita-->
+    </style>
+
+
 </resources>

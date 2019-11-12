@@ -5,8 +5,10 @@ import android.os.Bundle;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.snackbar.Snackbar;
 
+import android.view.MenuItem;
 import android.view.View;
 
+import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
@@ -24,6 +26,7 @@ import android.view.Menu;
 public class MainActivity extends AppCompatActivity {
 
     private AppBarConfiguration mAppBarConfiguration;
+    private ConstraintLayout constraintLayout;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -45,12 +48,13 @@ public class MainActivity extends AppCompatActivity {
         // menu should be considered as top level destinations.
         mAppBarConfiguration = new AppBarConfiguration.Builder(
                 R.id.nav_recycler, R.id.nav_calendario, R.id.nav_camara,
-                R.id.nav_tools, R.id.nav_share, R.id.nav_send)
+                R.id.nav_tools, R.id.nav_share, R.id.nav_cambio_atributos)
                 .setDrawerLayout(drawer)
                 .build();
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment);
         NavigationUI.setupActionBarWithNavController(this, navController, mAppBarConfiguration);
         NavigationUI.setupWithNavController(navigationView, navController);
+        constraintLayout = findViewById(R.id.constrait);
     }
 
     @Override
@@ -58,6 +62,23 @@ public class MainActivity extends AppCompatActivity {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.main, menu);
         return true;
+    }
+
+    public boolean onOptionsItemSelected(MenuItem item){
+        int id = item.getItemId();
+        if (id == R.id.opcion_azul){
+            constraintLayout.setBackgroundColor(getResources().getColor(R.color.color_opcion_azul));
+        }
+        else if(id == R.id.opcion_verde){
+            constraintLayout.setBackgroundColor(getResources().getColor(R.color.color_opcion_verde));
+        }
+        else if(id == R.id.opcion_amarillo){
+            constraintLayout.setBackgroundColor((getResources().getColor(R.color.color_opcion_amarilla)));
+        }
+        else if(id == R.id.opcion_blanco){
+            constraintLayout.setBackgroundColor((getResources().getColor(R.color.color_opcion_blanco)));
+        }
+        return super.onOptionsItemSelected(item);
     }
 
     @Override
