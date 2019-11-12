@@ -37,6 +37,7 @@
             tools:ignore="LabelFor" />
 
         <Button
+            style="@style/botonesAceptar"
             android:id="@+id/btn_calendario"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
